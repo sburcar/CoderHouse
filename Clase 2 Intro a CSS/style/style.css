@@ -1,0 +1,69 @@
+/*
+Paleta de colores 
+
+Terracota / Salmón: rgb(232, 110, 85)
+Arena / Beige: rgb(244, 233, 215)
+Verde Oliva: rgb(85, 107, 79) */
+
+/*Faimilia Tipografica
+
+ font-family: "Poppins", sans-serif; */
+
+body{
+    font-family: "poppins", sans-serif;
+    line-height: 1.5;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+h1, h2, h3 {
+    color:rgb(85, 107, 79);
+}
+/* Poniendo una etiqueta con otra y una coma entre medio, los atributos que ponga se aplican a ambas */
+header, footer{
+    color: rgb(244, 233, 215);
+    background-color:rgb(85, 107, 79) ;
+}
+
+/* si pongo una etiqueta seguida a la otra quiere decir que los atributos que ponga se aplican solo a la segunda etiqueta que este en la primer etiqueta ---------- 1 rem = 16px */
+header a{
+    font-size: 1.8rem;
+}
+
+main{
+    background-color: rgb(232, 110, 85) ;
+}
+
+
+footer p{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Para logo de la marca y whatsapp */
+.tamaño-foto-logo{
+  width: 200px;
+  height: 200px; 
+}
+/* Para las fotos en general */
+.tamaño-fotos{
+  width: 900px;
+  height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
